@@ -36,3 +36,10 @@ form {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
+#imageContainer {
+  display: flex;
+  margin: 30px;
+  padding: 30px;
+  padding-left: 30px;
+}
