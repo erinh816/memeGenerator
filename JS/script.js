@@ -49,4 +49,13 @@ appendImageButton.addEventListener('click', function () {
   topText.value = '';
   bottomText.value = '';
 
+
+  //add a delete feature on the image&text bundle
+  // opposite as line 44, instead of appendChild, use removeChild
+  singlImage.addEventListener('click', function () {
+
+    imageContainer.removeChild(singleContainer);
+
+  });
+
 });
