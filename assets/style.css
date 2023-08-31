@@ -1,7 +1,6 @@
 body {
   background-image: linear-gradient(100deg, #8C6FAE, #FFDB9E, #66D1FF);
   color: rgb(252, 252, 252);
-  font-family: 'Poppins', sans-serif;
   min-height: 100vh;
   margin: 30px;
 }
@@ -16,8 +15,6 @@ header {
 header,
 form {
   min-height: 20vh;
-  /* display: flex; */
-
   justify-content: center;
   align-items: center;
 }
@@ -37,9 +34,42 @@ form {
   transition: all 0.3s ease;
 }
 
-#imageContainer {
+/* #imageContainer {
   display: flex;
-  margin: 30px;
-  padding: 30px;
-  padding-left: 30px;
+
+
+  margin: 10px;
+  padding: 10px;
+} */
+
+
+
+.textInput {
+  position: absolute;
+  padding: 5px;
+  font-size: 66px;
+  text-align: center;
+  color: white;
+}
+
+.top-text {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.bottom-text {
+  bottom: 0;
+  left: 0;
+  right: 0
+}
+
+.single-container {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.individualImage {
+  margin: 20px;
 }
