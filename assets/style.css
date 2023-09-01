@@ -6,15 +6,13 @@ body {
 }
 
 header {
-  font-size: 1.5rem;
-  margin: 30px;
-  margin-bottom: 0;
+  font-size: 60px;
+  margin: 10px;
   text-align: center;
 }
 
 header,
 form {
-  min-height: 20vh;
   justify-content: center;
   align-items: center;
 }
@@ -24,30 +22,20 @@ form {
   padding: 0.5rem;
   font-size: 1.5rem;
   border: none;
-  /* background: white; */
 }
 
 .btn {
   color: #8C6FAE;
   background: white;
   cursor: pointer;
-  transition: all 0.3s ease;
 }
 
-/* #imageContainer {
-  display: flex;
 
-
-  margin: 10px;
-  padding: 10px;
-} */
-
-
-
+/* Class generated after submit button is pressed */
 .textInput {
   position: absolute;
   padding: 5px;
-  font-size: 66px;
+  font-size: 30px;
   text-align: center;
   color: white;
 }
